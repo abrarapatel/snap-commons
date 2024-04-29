@@ -1,0 +1,70 @@
+/* Flex Common CSS */
+
+.d-flex {
+    display: flex;
+  }
+  
+  .flex-direction-col {
+    flex-direction: column;
+  }
+  
+  .flex-direction-col-rev {
+    flex-direction: column-reverse;
+  }
+  
+  .flex-direction-row {
+    flex-direction: row;
+  }
+  
+  .flex-direction-row-rev {
+    flex-direction: row-reverse;
+  }
+  
+  .jcs {
+    justify-content: start;
+  }
+  
+  .jcc {
+    justify-content: center;
+  }
+  
+  .jcsb {
+    justify-content: space-between;
+  }
+  
+  .jcsa {
+    justify-content: space-around;
+  }
+  
+  .jce {
+    justify-content: end;
+  }
+  
+  .flex-gap-1 {
+    gap: 10px;
+  }
+  
+  .flex-gap-2 {
+    gap: 20px;
+  }
+  
+  .flex-gap-3 {
+    gap: 30px;
+  }
+  
+  .flex-gap-4 {
+    gap: 4;
+  }
+  
+  /* Link Common CSS */
+  
+  .link-deco-none {
+    text-decoration: none;
+  }
+  
+  /* Scrollbar Common CSS */
+  
+  .no-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
