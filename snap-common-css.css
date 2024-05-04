@@ -17,6 +17,35 @@
 .gap-2 { gap: 20px; }
 .gap-3 { gap: 30px; }
 .gap-4 { gap: 40px; }
+.gap-5 { gap: 50px; }
+.gap-6 { gap: 60px; }
+.gap-7 { gap: 70px; }
+.gap-8 { gap: 80px; }
+.gap-9 { gap: 90px; }
+.gap-10 { gap: 100px; }
+.gap-r-0-5 { row-gap: 5px; }
+.gap-r-1 { row-gap: 10px; }
+.gap-r-2 { row-gap: 20px; }
+.gap-r-3 { row-gap: 30px; }
+.gap-r-4 { row-gap: 40px; }
+.gap-r-5 { row-gap: 50px; }
+.gap-r-6 { row-gap: 60px; }
+.gap-r-7 { row-gap: 70px; }
+.gap-r-8 { row-gap: 80px; }
+.gap-r-9 { row-gap: 90px; }
+.gap-r-10 { row-gap: 100px; }
+.gap-c-0-5 { column-gap: 5px; }
+.gap-c-1 { column-gap: 10px; }
+.gap-c-2 { column-gap: 20px; }
+.gap-c-3 { column-gap: 30px; }
+.gap-c-4 { column-gap: 40px; }
+.gap-c-5 { column-gap: 50px; }
+.gap-c-6 { column-gap: 60px; }
+.gap-c-7 { column-gap: 70px; }
+.gap-c-8 { column-gap: 80px; }
+.gap-c-9 { column-gap: 90px; }
+.gap-c-10 { column-gap: 100px; }
+
 
 /* Link Common CSS */
 .link-deco-none { text-decoration: none; }
@@ -31,6 +60,8 @@
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
+
+.text-cut {text-decoration: line-through;}
 
 .user-select-none {
   user-select: none;
