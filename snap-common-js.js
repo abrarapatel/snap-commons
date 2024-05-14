@@ -3,8 +3,13 @@ window.addEventListener('load', function () {
     snapToggleClassOnCLick();
 });
 
-function snapToggleClassOnCLick() {
-    const elements = document.getElementsByClassName('snap-click-toggle-class');
+function snapToggleClassOnCLick(specificContainer = null) {
+    let elements;
+    if (specificContainer != null) {
+        elements = specificContainer.getElementsByClassName('snap-click-toggle-class');
+    } else {
+        elements = document.getElementsByClassName('snap-click-toggle-class');
+    }
 
     for (let index = 0; index < elements.length; index++) {
         const element = elements[index];
@@ -32,4 +37,19 @@ function snapToggleClassOnCLick() {
             }
         });
     }
+}
+
+function snapDaysBetweenDays(fromdate, todate = new Date()) {
+    if (typeof fromdate === 'string') {
+        fromdate = new Date(fromdate);
+    }
+    if (typeof todate === 'string') {
+        todate = new Date(todate);
+    }
+
+    if (!(fromdate instanceof Date) || !(todate instanceof Date)) {
+        throw new Error("Both parameters must be Date objects or convertible to Date objects");
+    }
+
+    return parseInt(Math.ceil((todate - fromdate) / (1000 * 60 * 60 * 24))) + 1;
 }
