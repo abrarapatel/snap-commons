@@ -53,3 +53,13 @@ function snapDaysBetweenDays(fromdate, todate = new Date()) {
 
     return parseInt(Math.ceil((todate - fromdate) / (1000 * 60 * 60 * 24))) + 1;
 }
+
+function getParentWithClass(element, className) {
+    let parent = element.parentNode;
+
+    while (parent && !parent.classList.contains(className)) {
+        parent = parent.parentNode;
+    }
+
+    return parent;
+}
