@@ -51,7 +51,7 @@ function snapDaysBetweenDays(fromdate, todate = new Date()) {
         throw new Error("Both parameters must be Date objects or convertible to Date objects");
     }
 
-    return parseInt(Math.ceil((todate - fromdate) / (1000 * 60 * 60 * 24))) + 1;
+    return Math.floor((fromdate - todate) / (1000 * 60 * 60 * 24)) + 1;
 }
 
 function getParentWithClass(element, className) {
