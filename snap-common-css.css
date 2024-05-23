@@ -82,6 +82,10 @@
 
 .text-cut {text-decoration: line-through;}
 
+/* Font style */
+.font-style-italic { font-style: italic; }
+
+
 .user-select-none {
   user-select: none;
   -moz-user-select: none;
