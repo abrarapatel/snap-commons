@@ -6,6 +6,7 @@
 
 /* Flex Common CSS */
 .d-flex { display: flex; }
+.d-inline-flex { display: inline-flex; }
 .flex-direction-col { flex-direction: column; }
 .flex-direction-col-rev { flex-direction: column-reverse; }
 .flex-direction-row { flex-direction: row; }
@@ -84,7 +85,6 @@
 
 /* Font style */
 .font-style-italic { font-style: italic; }
-
 
 .user-select-none {
   user-select: none;
