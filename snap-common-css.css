@@ -54,7 +54,7 @@
 .gap-c-10 { column-gap: 100px; }
 
 /* Width */
-.w-100 { width: 100%}
+.w-100 { width: 100%!important}
 .w-75 { width: 75%}
 .w-50 { width: 50%}
 .w-25 { width: 25%}
