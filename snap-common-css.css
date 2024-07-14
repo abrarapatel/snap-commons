@@ -81,6 +81,9 @@
 .text-center { text-align: center; }
 .text-right { text-align: right; }
 
+.text-black { color: #000; }
+.text-white { color: #fff; }
+
 .text-cut {text-decoration: line-through;}
 
 /* Font style */
