@@ -15,6 +15,7 @@
 .jcc { justify-content: center; }
 .jcsb { justify-content: space-between; }
 .jcsa { justify-content: space-around; }
+.jcse { justify-content: space-evenly; }
 .jce { justify-content: end; }
 .ais { align-items: start; }
 .aic { align-items: center; }
@@ -52,6 +53,8 @@
 .gap-c-8 { column-gap: 80px; }
 .gap-c-9 { column-gap: 90px; }
 .gap-c-10 { column-gap: 100px; }
+.flex-1 { flex: 1; }
+.flex-2 { flex: 2; }
 
 /* Width */
 .w-100 { width: 100%!important}
@@ -80,6 +83,7 @@
 .text-left { text-align: left; }
 .text-center { text-align: center; }
 .text-right { text-align: right; }
+.text-justify { text-align: justify; }
 
 .text-black { color: #000; }
 .text-white { color: #fff; }
