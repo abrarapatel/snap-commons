@@ -108,4 +108,8 @@
 .overflow-y-hidden { overflow-y: hidden; }
 .overflow-y-scroll { overflow-y: scroll; }
 
+/* Positions */
+.position-absolute { position: absolute; }
+.position-relative { position: relative; }
+
 /* Responsiveness */
